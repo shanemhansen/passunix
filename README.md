@@ -7,3 +7,8 @@ a powerful and general way to do the job.
 But. If all you want to do is decide which process should handle a given connection, you can
 skip the proxy part and just pass off the connection. This is vastly more efficient, leaving
 your servers free to do more important things.
+
+# Warnings
+
+This is alpha software. Demos work, and don't seem to leak fds.
+It hasn't been thoroughly benchmarked and has no tests.
